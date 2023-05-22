@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ .carrer {
+display: inline-block;
+background-color: aqua;
+padding: 5px;
+margin: 8px;
+width: auto;
+height: auto;
+box-sizing: border-box;
+border: 1px solid black;
+ }
+ @media screen and (max-width: 767px) {
+  div {
+    max-width: 40px;
+  }
+}
